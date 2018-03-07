@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/websocket"
-	"github.com/thrasher-/gocryptotrader/common"
+	"github.com/agentbunny/gocryptotrader/common"
 )
 
 const coinutWebsocketURL = "wss://wsapi.coinut.com"

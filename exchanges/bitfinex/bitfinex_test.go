@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/thrasher-/gocryptotrader/common"
-	"github.com/thrasher-/gocryptotrader/config"
+	"github.com/agentbunny/gocryptotrader/common"
+	"github.com/agentbunny/gocryptotrader/config"
 )
 
 // Please supply your own keys here to do better tests

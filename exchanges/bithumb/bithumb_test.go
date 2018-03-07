@@ -3,7 +3,7 @@ package bithumb
 import (
 	"testing"
 
-	"github.com/thrasher-/gocryptotrader/config"
+	"github.com/agentbunny/gocryptotrader/config"
 )
 
 // Please supply your own keys here for due diligence testing

@@ -3,10 +3,10 @@ package events
 import (
 	"testing"
 
-	"github.com/thrasher-/gocryptotrader/config"
-	"github.com/thrasher-/gocryptotrader/currency/pair"
-	"github.com/thrasher-/gocryptotrader/exchanges/ticker"
-	"github.com/thrasher-/gocryptotrader/smsglobal"
+	"github.com/agentbunny/gocryptotrader/config"
+	"github.com/agentbunny/gocryptotrader/currency/pair"
+	"github.com/agentbunny/gocryptotrader/exchanges/ticker"
+	"github.com/agentbunny/gocryptotrader/smsglobal"
 )
 
 var (

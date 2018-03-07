@@ -1,10 +1,10 @@
-<img src="https://github.com/thrasher-/gocryptotrader/blob/master/web/src/assets/page-logo.png?raw=true" width="350px" height="350px" hspace="70">
+<img src="https://github.com/agentbunny/gocryptotrader/blob/master/web/src/assets/page-logo.png?raw=true" width="350px" height="350px" hspace="70">
 
 [![Build Status](https://travis-ci.org/thrasher-/gocryptotrader.svg?branch=master)](https://travis-ci.org/thrasher-/gocryptotrader)
-[![Software License](https://img.shields.io/badge/License-MIT-orange.svg?style=flat-square)](https://github.com/thrasher-/gocryptotrader/blob/master/LICENSE)
-[![GoDoc](https://godoc.org/github.com/thrasher-/gocryptotrader?status.svg)](https://godoc.org/github.com/thrasher-/gocryptotrader)
+[![Software License](https://img.shields.io/badge/License-MIT-orange.svg?style=flat-square)](https://github.com/agentbunny/gocryptotrader/blob/master/LICENSE)
+[![GoDoc](https://godoc.org/github.com/agentbunny/gocryptotrader?status.svg)](https://godoc.org/github.com/agentbunny/gocryptotrader)
 [![Coverage Status](http://codecov.io/github/thrasher-/gocryptotrader/coverage.svg?branch=master)](http://codecov.io/github/thrasher-/gocryptotrader?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/thrasher-/gocryptotrader)](https://goreportcard.com/report/github.com/thrasher-/gocryptotrader)
+[![Go Report Card](https://goreportcard.com/badge/github.com/agentbunny/gocryptotrader)](https://goreportcard.com/report/github.com/agentbunny/gocryptotrader)
 
 A cryptocurrency trading bot supporting multiple exchanges written in Golang.
 
@@ -76,7 +76,7 @@ When submitting a PR, please abide by our coding guidelines:
 
 + Code must adhere to the official Go [formatting](https://golang.org/doc/effective_go.html#formatting) guidelines (i.e. uses [gofmt](https://golang.org/cmd/gofmt/)).
 + Code must be documented adhering to the official Go [commentary](https://golang.org/doc/effective_go.html#commentary) guidelines.
-+ Code must adhere to our [coding style](https://github.com/thrasher-/gocryptotrader/blob/master/doc/coding_style.md).
++ Code must adhere to our [coding style](https://github.com/agentbunny/gocryptotrader/blob/master/doc/coding_style.md).
 + Pull requests need to be based on and opened against the `master` branch.
 
 ## Compiling instructions
@@ -105,17 +105,17 @@ go get -u github.com/golang/dep/cmd/dep
 After `dep` is installed, please follow the instructions below:
 
 ```bash
-go get github.com/thrasher-/gocryptotrader
-cd $GOPATH/src/github.com/thrasher-/gocryptotrader
+go get github.com/agentbunny/gocryptotrader
+cd $GOPATH/src/github.com/agentbunny/gocryptotrader
 make get
 make install
-cp $GOPATH/src/github.com/thrasher-/gocryptotrader/config_example.json $GOPATH/bin/config.json
+cp $GOPATH/src/github.com/agentbunny/gocryptotrader/config_example.json $GOPATH/bin/config.json
 ```
 
 ### Windows
 
 ```bash
-go get github.com/thrasher-/gocryptotrader
+go get github.com/agentbunny/gocryptotrader
 cd %GOPATH%\src\github.com\thrasher-\gocryptotrader
 go install
 copy %GOPATH%\src\github.com\thrasher-\gocryptotrader\config_example.json %GOPATH%\bin\config.json
@@ -126,7 +126,7 @@ copy %GOPATH%\src\github.com\thrasher-\gocryptotrader\config_example.json %GOPAT
 
 ## Donations
 
-<img src="https://github.com/thrasher-/gocryptotrader/blob/master/web/src/assets/early-dumb-donate.png?raw=true" hspace="70">
+<img src="https://github.com/agentbunny/gocryptotrader/blob/master/web/src/assets/early-dumb-donate.png?raw=true" hspace="70">
 
 If this framework helped you in any way, or you would like to support the developers working on it, please donate Bitcoin to:
 
@@ -142,7 +142,7 @@ Binaries will be published once the codebase reaches a stable condition.
 
 |User|Github|Contribution Amount|
 |--|--|--|
-| thrasher- | https://github.com/thrasher- | 417 |
+| thrasher- | https://github.com/agentbunny | 417 |
 | shazbert | https://github.com/shazbert | 125 |
 | gloriousCode | https://github.com/gloriousCode | 113 |
 | 140am | https://github.com/140am | 8 |

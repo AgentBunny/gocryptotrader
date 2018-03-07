@@ -3,7 +3,7 @@ package okex
 import (
 	"testing"
 
-	"github.com/thrasher-/gocryptotrader/config"
+	"github.com/agentbunny/gocryptotrader/config"
 )
 
 var o OKEX

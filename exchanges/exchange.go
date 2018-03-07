@@ -4,12 +4,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/thrasher-/gocryptotrader/common"
-	"github.com/thrasher-/gocryptotrader/config"
-	"github.com/thrasher-/gocryptotrader/currency/pair"
-	"github.com/thrasher-/gocryptotrader/exchanges/nonce"
-	"github.com/thrasher-/gocryptotrader/exchanges/orderbook"
-	"github.com/thrasher-/gocryptotrader/exchanges/ticker"
+	"github.com/agentbunny/gocryptotrader/common"
+	"github.com/agentbunny/gocryptotrader/config"
+	"github.com/agentbunny/gocryptotrader/currency/pair"
+	"github.com/agentbunny/gocryptotrader/exchanges/nonce"
+	"github.com/agentbunny/gocryptotrader/exchanges/orderbook"
+	"github.com/agentbunny/gocryptotrader/exchanges/ticker"
 )
 
 const (

@@ -4,11 +4,11 @@ import (
 	"errors"
 	"log"
 
-	"github.com/thrasher-/gocryptotrader/common"
-	"github.com/thrasher-/gocryptotrader/currency/pair"
-	"github.com/thrasher-/gocryptotrader/exchanges"
-	"github.com/thrasher-/gocryptotrader/exchanges/orderbook"
-	"github.com/thrasher-/gocryptotrader/exchanges/ticker"
+	"github.com/agentbunny/gocryptotrader/common"
+	"github.com/agentbunny/gocryptotrader/currency/pair"
+	"github.com/agentbunny/gocryptotrader/exchanges"
+	"github.com/agentbunny/gocryptotrader/exchanges/orderbook"
+	"github.com/agentbunny/gocryptotrader/exchanges/ticker"
 )
 
 // Start starts the GDAX go routine

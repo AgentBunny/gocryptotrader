@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/thrasher-/gocryptotrader/config"
+	"github.com/agentbunny/gocryptotrader/config"
 )
 
 var l Liqui

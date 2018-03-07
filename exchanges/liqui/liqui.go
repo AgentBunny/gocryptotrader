@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/thrasher-/gocryptotrader/common"
-	"github.com/thrasher-/gocryptotrader/config"
-	"github.com/thrasher-/gocryptotrader/exchanges"
-	"github.com/thrasher-/gocryptotrader/exchanges/ticker"
+	"github.com/agentbunny/gocryptotrader/common"
+	"github.com/agentbunny/gocryptotrader/config"
+	"github.com/agentbunny/gocryptotrader/exchanges"
+	"github.com/agentbunny/gocryptotrader/exchanges/ticker"
 )
 
 const (
