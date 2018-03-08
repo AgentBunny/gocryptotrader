@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/agentbunny/gocryptotrader/config"
+	"github.com/thrasher-/gocryptotrader/config"
 )
 
 var c COINUT

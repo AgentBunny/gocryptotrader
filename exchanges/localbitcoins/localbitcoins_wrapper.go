@@ -4,10 +4,10 @@ import (
 	"errors"
 	"log"
 
-	"github.com/agentbunny/gocryptotrader/currency/pair"
-	"github.com/agentbunny/gocryptotrader/exchanges"
-	"github.com/agentbunny/gocryptotrader/exchanges/orderbook"
-	"github.com/agentbunny/gocryptotrader/exchanges/ticker"
+	"github.com/thrasher-/gocryptotrader/currency/pair"
+	"github.com/thrasher-/gocryptotrader/exchanges"
+	"github.com/thrasher-/gocryptotrader/exchanges/orderbook"
+	"github.com/thrasher-/gocryptotrader/exchanges/ticker"
 )
 
 // Start starts the LocalBitcoins go routine

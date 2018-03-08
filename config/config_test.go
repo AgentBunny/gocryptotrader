@@ -3,8 +3,8 @@ package config
 import (
 	"testing"
 
-	"github.com/agentbunny/gocryptotrader/common"
-	"github.com/agentbunny/gocryptotrader/currency/pair"
+	"github.com/thrasher-/gocryptotrader/common"
+	"github.com/thrasher-/gocryptotrader/currency/pair"
 )
 
 func TestSupportsPair(t *testing.T) {

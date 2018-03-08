@@ -3,7 +3,7 @@ package translation
 import (
 	"errors"
 
-	"github.com/agentbunny/gocryptotrader/currency/pair"
+	"github.com/thrasher-/gocryptotrader/currency/pair"
 )
 
 var translations = map[pair.CurrencyItem]pair.CurrencyItem{

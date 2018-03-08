@@ -3,7 +3,7 @@ package bitstamp
 import (
 	"log"
 
-	"github.com/agentbunny/gocryptotrader/common"
+	"github.com/thrasher-/gocryptotrader/common"
 	"github.com/toorop/go-pusher"
 )
 

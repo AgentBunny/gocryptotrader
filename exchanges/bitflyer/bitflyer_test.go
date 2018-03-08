@@ -4,8 +4,8 @@ import (
 	"log"
 	"testing"
 
-	"github.com/agentbunny/gocryptotrader/config"
-	"github.com/agentbunny/gocryptotrader/currency/pair"
+	"github.com/thrasher-/gocryptotrader/config"
+	"github.com/thrasher-/gocryptotrader/currency/pair"
 )
 
 // Please supply your own keys here for due diligence testing

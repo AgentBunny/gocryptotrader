@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/agentbunny/gocryptotrader/currency/pair"
+	"github.com/thrasher-/gocryptotrader/currency/pair"
 )
 
 // Const values for orderbook package

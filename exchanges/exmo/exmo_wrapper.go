@@ -5,11 +5,11 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/agentbunny/gocryptotrader/common"
-	"github.com/agentbunny/gocryptotrader/currency/pair"
-	exchange "github.com/agentbunny/gocryptotrader/exchanges"
-	"github.com/agentbunny/gocryptotrader/exchanges/orderbook"
-	"github.com/agentbunny/gocryptotrader/exchanges/ticker"
+	"github.com/thrasher-/gocryptotrader/common"
+	"github.com/thrasher-/gocryptotrader/currency/pair"
+	exchange "github.com/thrasher-/gocryptotrader/exchanges"
+	"github.com/thrasher-/gocryptotrader/exchanges/orderbook"
+	"github.com/thrasher-/gocryptotrader/exchanges/ticker"
 )
 
 // Start starts the EXMO go routine

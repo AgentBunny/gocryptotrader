@@ -11,4 +11,3 @@ testdata/writefiletest
 .idea
 *.iml
 vendor/
-debug

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/agentbunny/gocryptotrader/config"
+	"github.com/thrasher-/gocryptotrader/config"
 )
 
 // Please supply you own test keys here to run better tests.

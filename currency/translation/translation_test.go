@@ -3,7 +3,7 @@ package translation
 import (
 	"testing"
 
-	"github.com/agentbunny/gocryptotrader/currency/pair"
+	"github.com/thrasher-/gocryptotrader/currency/pair"
 )
 
 func TestGetTranslation(t *testing.T) {
