@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
+	exchange "github.com/agentbunny/gocryptotrader/exchanges"
 	"github.com/thrasher-/gocryptotrader/common"
 	"github.com/thrasher-/gocryptotrader/config"
-	"github.com/thrasher-/gocryptotrader/exchanges"
 	"github.com/thrasher-/gocryptotrader/exchanges/ticker"
 )
 
@@ -269,6 +269,10 @@ func (l *LakeBTC) CreateWithdraw(amount float64, accountID int64) (Withdraw, err
 	params := strconv.FormatFloat(amount, 'f', -1, 64) + ",btc," + strconv.FormatInt(accountID, 10)
 
 	return resp, l.SendAuthenticatedHTTPRequest(lakeBTCCreateWithdraw, params, &resp)
+}
+
+func (l *LakeBTC) NewOrder(currencyPair string, amount float64, price float64, buy bool, Type string, hidden bool) (Order, error) {
+
 }
 
 // SendAuthenticatedHTTPRequest sends an autheticated HTTP request to a LakeBTC
